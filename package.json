@@ -1,0 +1,28 @@
+{
+  "name": "redenomination",
+  "version": "1.0.0",
+  "description": "A simple utility library to handle redenomination numbers.",
+  "main": "src/redenomination.ts",
+  "scripts": {
+      "test": "mocha -r ts-node/register test/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nirwannirwan/redenomination.git"
+  },
+  "keywords": [
+    "currency",
+    "redenomination"
+  ],
+  "author": "nirwan <sihino.miil@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/nirwannirwan/redenomination#readme",
+  "devDependencies": {
+    "@types/chai": "^5.2.3",
+    "@types/mocha": "^10.0.10",
+    "chai": "^6.2.1",
+    "mocha": "^11.7.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
