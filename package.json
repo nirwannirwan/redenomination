@@ -1,10 +1,11 @@
 {
   "name": "redenomination",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility library to handle redenomination numbers.",
   "main": "src/redenomination.ts",
   "scripts": {
-      "test": "mocha -r ts-node/register test/*.test.ts"
+      "test": "mocha -r ts-node/register test/*.test.ts",
+      "build": "tsc --module commonjs --outDir dist"
   },
   "repository": {
     "type": "git",
