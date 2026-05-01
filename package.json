@@ -1,6 +1,6 @@
 {
   "name": "redenomination",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple utility library to handle redenomination numbers.",
   "main": "dist/cjs/redenomination.js",
   "module": "dist/redenomination.js",
